@@ -30,11 +30,9 @@ The purpose of this bot is to get an Nvidia card. It tries multiple things to do
 
 > :point_right: You may get false positives from time to time, so I apologize for that. The library currently waits for all calls to be completed before parsing, but sometimes this can have unknown behavior. Patience is a virtue :)
 
-| | Adorama | Amazon | Amazon (CA) | ASUS | B&H | Best Buy | Best Buy (CA) | EVGA | Micro Center | Newegg | Newegg (CA) | Nvidia | Office Depot | PNY | Zotac |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **3070**| | | | | | | | | | | | | | `✔` | |
-| **3080** | `✔` | `✔` | `✔` | `✔` | `✔` | `✔` | `✔` | `✔` | `✔` | `✔` | `✔` | `✔` | `✔` | `✔` | `✔` |
-| **3090** | `✔` | `✔` | `✔` | `✔` | `✔` | `✔` | `✔` | `✔` | | `✔` | `✔` | `✔` | | `✔` | `✔` |
+|                              | Amazon |
+|   :---:                      | :---:  |
+| **Thrustmaster T16000M FCS** |        |
 
 ## Installation and prerequisites
 
@@ -48,7 +46,7 @@ You do not need any computer skills, smarts, or anything of that nature. You are
 - [git](https://git-scm.com/)
 - Clone this project `git clone https://github.com/jef/nvidia-snatcher.git`
 - Run `npm install`
-- Copy `.env.example` to a new file `.env` and edit the `.env` file to your liking using your [favorite text editor](https://code.visualstudio.com/)
+- Copy `.env-example` to a new file `.env` and edit the `.env` file to your liking using your [favorite text editor](https://code.visualstudio.com/)
     - More on this in [customization](#Customization)
 - Run `npm run start` to start
 
@@ -130,36 +128,13 @@ Here is a list of variables that you can use to customize your newly copied `.en
 
 | Stores | Environment variable |
 |:---:|:---:|
-| Adorama | `adorama`|
 | Amazon | `amazon`|
-| Amazon (CA) | `amazon-ca`|
-| Amazon (DE) | `amazon-de`|
-| Amazon (NL) | `amazon-nl`|
-| Amazon (UK) | `amazon-uk`|
-| Aria PC | `aria`|
-| ASUS | `asus` |
 | B&H | `bandh`|
 | Best Buy | `bestbuy`|
-| Best Buy (CA) | `bestbuy-ca`|
-| Box | `box`|
-| CCL | `ccl`|
-| Currys | `currys`|
-| eBuyer | `ebuyer`|
-| EVGA | `evga`|
-| EVGA (EU) | `evga-eu`|
 | Gamestop | `gamestop`|
 | Micro Center | `microcenter`|
 | Newegg | `newegg`|
-| Newegg (CA) | `newegg-ca`|
-| Novatech | `novatech`|
-| Nvidia | `nvidia`|
-| Nvidia (API) | `nvidia-api`|
 | Office Depot | `officedepot`|
-| Overclockers | `overclockers`|
-| PNY | `pny`|
-| Scan | `scan`|
-| Very | `very`|
-| Zotac | `zotac`|
 
 <details>
 <summary>Micro Center stores</summary>
@@ -200,13 +175,7 @@ Here is a list of variables that you can use to customize your newly copied `.en
 
 | Brand | Model |
 |:---:|---|
-| `asus` | `rog strix`, `rog strix oc`, `strix`, `tuf`, `tuf oc` |
-| `evga` | `ftw3`, `ftw3 ultra`, `xc3 black`, `xc3`, `xc3 ultra` |
-| `gigabyte` | `aorus master`, `eagle`, `eagle oc`, `gaming`, `gaming oc`, `vision` |
-| `msi` | `gaming x trio`, `ventus 3x`, `ventus 3x oc` |
-| `nvidia` | `founders edition` |
-| `pny` | `dual fan`, `xlr8`, `xlr8 rgb` |
-| `zotac` | `trinity`, `trinity oc` |
+| `thrustmaster` | `joystick` |
 
 #### Supported carriers
 

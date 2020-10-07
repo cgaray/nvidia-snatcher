@@ -130,7 +130,7 @@ const page = {
 	inStockWaitTime: envOrNumber(process.env.IN_STOCK_WAIT_TIME),
 	screenshot: envOrBoolean(process.env.SCREENSHOT),
 	timeout: envOrNumber(process.env.PAGE_TIMEOUT, 30000),
-	userAgent: envOrString(process.env.USER_AGENT, 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36'),
+	userAgent: envOrString(process.env.USER_AGENT, 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0'),
 	width: 1920
 };
 
@@ -145,8 +145,8 @@ const store = {
 	microCenterLocation: envOrString(process.env.MICROCENTER_LOCATION, 'web'),
 	showOnlyBrands: envOrArray(process.env.SHOW_ONLY_BRANDS),
 	showOnlyModels: envOrArray(process.env.SHOW_ONLY_MODELS),
-	showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, ['3070', '3080', '3090']),
-	stores: envOrArray(process.env.STORES, ['nvidia'])
+	showOnlySeries: envOrArray(process.env.SHOW_ONLY_SERIES, ['T.16000M FCS']),
+	stores: envOrArray(process.env.STORES, ['amazon'])
 };
 
 export const config = {

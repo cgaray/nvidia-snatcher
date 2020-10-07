@@ -10,10 +10,10 @@ export type Pricing = {
 	euroFormat?: boolean;
 };
 
-export type Series = 'test:series' | '3070' | '3080' | '3090';
+export type Series = 'test:series' | 'T.16000M FCS';
 
 export type Link = {
-	brand: 'test:brand' | 'asus' | 'evga' | 'gigabyte' | 'inno3d' | 'kfa2' | 'palit' | 'pny' | 'msi' | 'nvidia' | 'zotac';
+	brand: 'test:brand' | 'thrustmaster';
 	series: Series;
 	model: string;
 	url: string;

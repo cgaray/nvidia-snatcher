@@ -17,12 +17,6 @@ export const Gamestop: Store = {
 			model: 'test:model',
 			series: 'test:series',
 			url: 'https://www.gamestop.com/video-games/pc/components/graphics-cards/products/tuf-gaming-geforce-rtx-3080-graphics-card/11109446.html'
-		},
-		{
-			brand: 'asus',
-			model: 'tuf oc',
-			series: '3080',
-			url: 'https://www.gamestop.com/video-games/pc/components/graphics-cards/products/tuf-gaming-geforce-rtx-3080-graphics-card/11109446.html'
 		}
 	],
 	name: 'gamestop',
